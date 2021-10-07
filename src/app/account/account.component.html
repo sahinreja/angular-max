@@ -1,0 +1,13 @@
+<div class="card my-3">
+    <div class="card-header">
+        {{account.name}}
+    </div>
+    <div class="card-body">
+        <p>This accoun is {{account.status}}</p>
+        <div class="d-flex">
+            <button class="btn btn-light" (click)="setToStatus('active')">Set to 'Active'</button>
+            <button class="btn btn-light" (click)="setToStatus('inactive')">Set to 'In Active'</button>
+            <button class="btn btn-light" (click)="setToStatus('hidden')">Set to 'Hidden'</button>
+        </div>
+    </div>
+</div>

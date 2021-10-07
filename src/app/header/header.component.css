@@ -1,0 +1,9 @@
+.active{
+    background-color: #dedede;
+}
+.active .nav-link{
+    color:#100e8a!important ;
+}
+.navbar-brand ,.nav-link{
+    color: #ffffff!important;
+}

@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+/* @import "../node_modules/bootstrap/dist/css/bootstrap.min.css" */
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap'); 
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #EEEEEE;
+    
+}
+
+html{
+    font-size: 80%;
+} 
+
+.btn-success{
+    background-color:#100e8a ;
+}
+.btn-success:focus{
+    background-color:#100e8a!important ;
+}

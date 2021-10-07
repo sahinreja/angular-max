@@ -1,0 +1,12 @@
+<div>
+    <h1>My Server</h1>
+    <button class="btn btn-info" (click)="addServer()">Add Server</button>
+</div>
+
+<div class="mt-5">
+    <ul class="list-group">
+        <a type="buttton" class="list-group-item" *ngFor="let server of servers ; let i = index" style="cursor: pointer;" (click)="removeServer(i)">
+            {{server}}
+        </a>
+    </ul>
+</div>

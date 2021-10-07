@@ -1,0 +1,15 @@
+<form action="" class="mt-5">
+    <div class="form-group mb-3">
+        <label for="account">Account Name</label>
+        <input type="text" class="form-control" id="account" #accountName>
+    </div>
+    <div class="form-group mb-3">
+        <select name="" id="" class="form-control" #status>
+            <option value="active">Active</option>
+            <option value="inactive">In Active</option>
+            <option value="hidden">Hidden</option>
+        </select>
+    </div>
+
+    <button class="btn btn-info" (click)="onCreateAccount(accountName.value , status.value)" >Add Account</button>
+</form>

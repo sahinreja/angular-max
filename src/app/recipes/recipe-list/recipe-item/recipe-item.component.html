@@ -1,0 +1,9 @@
+<a [routerLinkActive]="['active']" [routerLink]="[index]" type="button" class="list-group-item mb-3 d-flex justify-content-between">
+    <div class="left">
+        <h4 class="list-group-item-heading">{{recipe.name}}</h4>
+        <p class="list-group-item-text">{{recipe.description}}</p>                
+    </div>
+    <span class="right">
+        <img [src]="recipe.imagePath" alt="recipe_image" class="img-responsive" style="max-height:70px" > 
+    </span>
+</a>

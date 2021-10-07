@@ -1,0 +1,108 @@
+<!-- <div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <h3 style="color: darkblue; font-weight: bold;">I am in the AppComponent!</h3>
+            <br>
+            <app-servers></app-servers>
+        </div>
+    </div>
+</div>
+<hr>
+<br>
+
+
+
+
+<app-task1></app-task1> -->
+<app-header></app-header>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <router-outlet></router-outlet>
+            <!-- <app-shopping-list *ngIf="viewComponent === 'shopping-list'" ></app-shopping-list> -->
+        </div>
+    </div>
+</div>
+
+
+
+<!-- <div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <app-myserver></app-myserver>
+        </div>
+    </div>
+</div> -->
+
+
+<!-- <div class="container">
+    <app-cockpit 
+    (onServerCreated)="onServerAddres($event)"
+    (onServerBluePrint)="onServerBluePrint($event)"
+    ></app-cockpit>
+
+    <div class="row">
+        <div class="col-xs-12" style="padding:0!important;">
+            <app-server-element 
+            *ngFor="let serverElem of serverElement"
+            [element]="serverElem"
+            >
+            <p #contentParagraph>
+                <strong *ngIf="serverElem.type==='server'" style="color:red">
+                   {{serverElem.content}}
+                </strong>
+                <strong *ngIf="serverElem.type === 'blueprint'" style="color:green">
+                    {{serverElem.content}}
+                </strong>
+            </p>
+        </app-server-element>
+        </div>
+    </div>
+</div> -->
+
+
+
+<!-- <div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <app-game-control (intervalFired)="onIntervalFired($event)"></app-game-control>
+        </div>
+    </div>
+    <div class="row mt-5">
+        <div class="col-6">
+            <app-odd *ngFor="let oddNumber of oddNumbers" [number]="oddNumber"></app-odd>
+        </div>
+        <div class="col-6">
+            <app-even *ngFor="let evenNumber of evenNumbers" [number]="evenNumber"></app-even>
+        </div>
+    </div>
+</div> -->
+
+
+<!-- <div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <app-new-account></app-new-account>
+            <app-account *ngFor="let account of accounts;let i = index" [id]="i" [account]="account" ></app-account>
+        </div>
+    </div>
+</div>  -->
+
+<!-- <div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-md-8 mx-auto mt-5">
+            <app-active-user></app-active-user>
+            <br><br>
+            <app-inactive-user></app-inactive-user>
+        </div>
+    </div>
+</div> -->
+
+<!-- <div class="container">
+    <div class="row">
+        <div class="col-xs-12 mx-auto mt-5">
+            <app-navbar></app-navbar>
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div> -->

@@ -1,0 +1,15 @@
+<div class="row">
+    <div class="col-md-6 mx-auto">
+        <div class="list-group">
+            <a
+            [routerLink]="['/users' , user.id  , user.name]" 
+            class="list-group-item" 
+             style="cursor: pointer;" *ngFor="let user of users">
+                {{user.name}}
+            </a>
+        </div>
+    </div>
+    <div class="col-md-6 mx-auto">
+        <router-outlet></router-outlet>
+    </div>
+</div>
